@@ -59,5 +59,8 @@ body {
 
     .calculator-grid {
         grid-template-columns: repeat(4, 80px);
-        grid-template-rows: minmax(100px, auto) repeat(5, 80px)    }
+        grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+        min-height: 0;
+        
+    }
 }
